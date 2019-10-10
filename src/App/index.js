@@ -1,9 +1,16 @@
 import React from 'react';
 import './App.css';
+import WelcomeMessage from './WelcomeMessage'
+import styled from 'styled-components';
+
 
 function App() {
   return (
-    <div>hello world</div>
+    <div>
+      <WelcomeMessage/>
+      
+    </div>
+    
   );
 }
 
