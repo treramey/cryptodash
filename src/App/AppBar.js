@@ -29,10 +29,7 @@ function ControlButton({ name, active }) {
   return (
     <AppContext.Consumer>
       {({ page, setPage }) => (
-        <ControlButtonElem 
-        active={page === name}
-        onClick={()=> setPage(name)}
-        >
+        <ControlButtonElem active={page === name} onClick={() => setPage(name)}>
           {toProperCase(name)}
         </ControlButtonElem>
       )}
