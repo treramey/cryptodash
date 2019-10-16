@@ -3,6 +3,7 @@ import WelcomeMessage from "./WelcomeMessage";
 import ConfirmButton from './ConfirmButton'
 import Page from '../Shared/page';
 import CoinGrid from './Coingrid';
+import Search from './Search';
 
 export default function() {
   return (
@@ -10,6 +11,7 @@ export default function() {
       <WelcomeMessage /> 
       <CoinGrid topSection/>
       <ConfirmButton />
+      <Search/>
       <CoinGrid/>
     </Page>
   );
